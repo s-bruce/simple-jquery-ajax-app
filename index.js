@@ -1,5 +1,9 @@
 $(document).ready(function(){
-
-   console.log("got to index.js");
-
+  $.get("https://swapi.co/api/planets", function(data){
+    data.results.forEach(planet => {
+      if (planet.climate.includes("temperate")) {
+        console.log(planet.name);
+      }
+    })
+  })
 })
