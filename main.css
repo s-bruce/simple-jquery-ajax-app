@@ -1,0 +1,19 @@
+body {
+  background-color: #D3D3D3;
+  cursor: pointer;
+}
+
+.planet {
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 5px;
+  padding: 20px;
+  background-color: #FFF;
+  box-shadow: 7px 7px 5px #888;
+}
+
+.planet:hover {
+  box-shadow: 7px 7px 5px #696969;
+}
